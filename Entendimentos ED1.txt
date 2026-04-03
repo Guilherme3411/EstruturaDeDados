@@ -1,10 +1,24 @@
 ---------------------------------------------------ED1---------------------------------------------------------------------------
 
-Pra começar o principal e entender como Estrutura de Dados efetivamente faz e qual a necesidade dela.
+Pra começar o principal e entender como Estrutura de Dados efetivamente faz e qual a necessidade dela.
 
-------------------------O primeiro questionamento e o que e etrutura de dados?------------------------
+------------------------------------ O primeiro questionamento "O que e estrutura de dados?" ------------------------------------
 - E um meio de organização de Dados.
 - Conjunto de técnicas para manupular e gerenciar dados.
 - Modelos usados para organizar dados na memoria o que muda o impacto no desempenho.
 - Forma abistrata de armazenar e modificar dados.
 - Estruturas que resolvem problemas computacionais.
+
+--------------------------------------------------- Conjuntos dinâmicos ---------------------------------------------------------
+
+Os conjuntos de valores manipulados por algoritmos podem sofrer mudanças .
+Esses conjuntos são conhecidos como conjuntos de dados dinâmicos.
+Para saber quais conjuntos usar, é preciso saber quais operações são necessárias, sendo algumas delas ->.
+
+- Consultar o menor valor de um conjunto.
+- Consultar o maior valor de um conjunto.
+- Consultar a quantidade de valores do conjunto.
+- Consultar o valor que precede um k.
+- Consultar o valor que sucede um k.
+- Ordenar um conjunto.
+
