@@ -1,0 +1,10 @@
+---------------------------------------------------ED1---------------------------------------------------------------------------
+
+Pra começar o principal e entender como Estrutura de Dados efetivamente faz e qual a necesidade dela.
+
+------------------------O primeiro questionamento e o que e etrutura de dados?------------------------
+- E um meio de organização de Dados.
+- Conjunto de técnicas para manupular e gerenciar dados.
+- Modelos usados para organizar dados na memoria o que muda o impacto no desempenho.
+- Forma abistrata de armazenar e modificar dados.
+- Estruturas que resolvem problemas computacionais.
