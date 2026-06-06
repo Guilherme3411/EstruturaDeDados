@@ -57,7 +57,7 @@ int main(){
  Fila f;
     inicializarFila(&f);
 
-    printf("Inicializando fila...\n");
+    printf("Inicializando fila\n");
     printf("Fila vazia? %s\n", filaVazia(&f) ? "Sim" : "Nao");
     printf("Adicionando valores: 10, 20, 30\n");
     adicionarFila(&f, 10);
@@ -69,17 +69,18 @@ int main(){
     removerFila(&f);
     printf("Conteudo da fila apos remocao: ");
     mostrarFila(&f);
-    printf("Adicionando mais valores ate a fila ficar cheia...\n");
+    printf("Adicionando mais valores ate a fila ficar cheia\n");
     while(!filaCheia(&f)){
         adicionarFila(&f, f.itens[f.fim - 1] + 10);
     }
     printf("Fila cheia? %s\n", filaCheia(&f) ? "Sim" : "Nao");
     printf("Conteudo da fila cheia: ");
     mostrarFila(&f);
-    printf("Removendo todos os elementos...\n");
+    printf("Removendo todos os elementos\n");
     while(!filaVazia(&f)){
         removerFila(&f);
     }
     printf("Fila vazia apos remover tudo? %s\n", filaVazia(&f) ? "Sim" : "Nao");
-    return 0;    
+    return 0;  
+      
 }
